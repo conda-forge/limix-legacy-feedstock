@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  skip: true  # [win or linux32]
+  number: 1
+  skip: true  # [win32 or linux32 or (win64 and py27)]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
