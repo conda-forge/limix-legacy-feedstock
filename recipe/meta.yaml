@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win or linux32]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
@@ -23,6 +23,7 @@ requirements:
     - cython
     - toolchain
     - numpy x.x
+    - numpy >=1.12
   run:
     - python
     - scikit-learn
@@ -31,6 +32,7 @@ requirements:
     - h5py
     - matplotlib
     - numpy x.x
+    - numpy >=1.12
 
 test:
   requires:
