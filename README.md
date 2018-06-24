@@ -14,14 +14,16 @@ Summary: A flexible and fast mixed model toolbox
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/limix-legacy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/limix-legacy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/limix-legacy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/limix-legacy-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/limix-legacy-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/limix-legacy-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/limix-legacy-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/limix-legacy-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/limix-legacy/badges/version.svg)](https://anaconda.org/conda-forge/limix-legacy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/limix-legacy/badges/downloads.svg)](https://anaconda.org/conda-forge/limix-legacy)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-limix--legacy-green.svg)](https://anaconda.org/conda-forge/limix-legacy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/limix-legacy.svg)](https://anaconda.org/conda-forge/limix-legacy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/limix-legacy.svg)](https://anaconda.org/conda-forge/limix-legacy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/limix-legacy.svg)](https://anaconda.org/conda-forge/limix-legacy) |
 
 Installing limix-legacy
 =======================
