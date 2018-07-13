@@ -18,12 +18,14 @@ build:
 
 requirements:
   build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
     - python
     - setuptools
     - cython
-    - toolchain
-    - numpy x.x
-    - numpy >=1.12
+    - numpy
+    - numpy
   run:
     - python
     - scikit-learn
@@ -31,8 +33,8 @@ requirements:
     - scipy
     - h5py
     - matplotlib
-    - numpy x.x
-    - numpy >=1.12
+    - {{ pin_compatible('numpy') }}
+    - {{ pin_compatible('numpy') }}
 
 test:
   requires:
