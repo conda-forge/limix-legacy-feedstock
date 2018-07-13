@@ -16,7 +16,7 @@ Current build status
 
 [![Linux](https://img.shields.io/circleci/project/github/conda-forge/limix-legacy-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/limix-legacy-feedstock)
 [![OSX](https://img.shields.io/travis/conda-forge/limix-legacy-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/limix-legacy-feedstock)
-![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/limix-legacy-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/limix-legacy-feedstock/branch/master)
 
 Current release info
 ====================
