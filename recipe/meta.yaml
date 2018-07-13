@@ -12,8 +12,8 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
-  skip: true  # [win or linux32]
+  number: 4
+  skip: true  # [win and vc<14 or linux32]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -33,7 +33,6 @@ requirements:
     - scipy
     - h5py
     - matplotlib
-    - {{ pin_compatible('numpy') }}
     - {{ pin_compatible('numpy') }}
 
 test:
